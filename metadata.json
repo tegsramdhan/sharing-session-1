@@ -1,0 +1,6 @@
+{
+  "name": "Aesthetic Travel",
+  "description": "A single-page landing site for a premium travel agency with dynamic color theming based on vibrant destination imagery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

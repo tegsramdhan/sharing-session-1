@@ -6,25 +6,25 @@ const destinations = [
     id: 'nz',
     country: 'New Zealand',
     region: 'Puncak Selatan',
-    image: 'https://i.pinimg.com/736x/f7/69/43/f769432fd6e0d0b66b58e2d6c262cb0a.jpg'
+    image: 'https://file.garden/aiUZiQ_VOCn5P8Oe/f769432fd6e0d0b66b58e2d6c262cb0a.jpg'
   },
   {
     id: 'montana',
     country: 'Montana',
     region: 'Lembah Liar',
-    image: 'https://i.pinimg.com/736x/78/3e/28/783e283f2621e49b1f7e72c1fe24af1a.jpg'
+    image: 'https://file.garden/aiUZiQ_VOCn5P8Oe/783e283f2621e49b1f7e72c1fe24af1a.jpg'
   },
   {
     id: 'mongolia',
     country: 'Mongolia',
     region: 'Padang Stepa',
-    image: 'https://i.pinimg.com/736x/e1/ba/27/e1ba27823037873f8bd3ea70fb1834ca.jpg'
+    image: 'https://file.garden/aiUZiQ_VOCn5P8Oe/e1ba27823037873f8bd3ea70fb1834ca.jpg'
   },
   {
     id: 'patagonia',
     country: 'Patagonia',
     region: 'Gunung Es',
-    image: 'https://i.pinimg.com/1200x/a4/36/c3/a436c30caa706edea3dc749217acb3bf.jpg'
+    image: 'https://file.garden/aiUZiQ_VOCn5P8Oe/a436c30caa706edea3dc749217acb3bf.jpg'
   }
 ];
 
@@ -55,7 +55,7 @@ export default function Destinations() {
           >
             <img 
               crossOrigin="anonymous"
-              src={`https://api.allorigins.win/raw?url=${encodeURIComponent(dest.image)}`}
+              src={dest.image}
               alt={dest.region} 
               className="absolute inset-0 w-full h-full object-cover object-center transition-transform duration-700 md:group-hover:scale-105"
               onMouseEnter={handleMouseEnter}
